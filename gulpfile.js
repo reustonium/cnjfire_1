@@ -5,7 +5,7 @@ var gutil = require('gulp-util');
 var ftp = require('gulp-ftp');
  
 gulp.task('deploy', function () {
-	return gulp.src(['./**/*.*'])
+	return gulp.src(['./**/*.*', '!./node_modules/**/*.*'])
 		.pipe(ftp({
 			host: 'superiorspeechservices.com',
 			user: 'cnjfireprotection@superiorspeechservices.com',
