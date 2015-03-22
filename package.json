@@ -1,0 +1,21 @@
+{
+  "name": "cnj_web",
+  "version": "0.1.0",
+  "description": "a website for CNJ Fire protection",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-ftp": "^1.0.3",
+    "gulp-less": "^3.0.2",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-util": "^3.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Ruestow",
+  "license": "Commercial"
+}

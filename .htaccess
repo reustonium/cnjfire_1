@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Demo Site"
+AuthUserFile /home/supefvxn/.htpasswds/public_html/protected/passwd
+require valid-user
