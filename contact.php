@@ -11,7 +11,7 @@ if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
-$address = "hi@yoarts.com";
+$address = "andrew.ruestow@gmail.com";
 
 // END OF Simple Configuration Options
 
@@ -83,9 +83,9 @@ if ( empty( $message ) ) {
 
 ////////////////////////
 // Verification code is required
-if ( $session_verify != $posted_verify ) {
+/*if ( $session_verify != $posted_verify ) {
 	$error .= 'The verification code you entered is incorrect.';
-}
+}*/
 ////////////////////////
 
 if ( !empty($error) ) {
